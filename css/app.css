@@ -1,6 +1,7 @@
 html {
     box-sizing: border-box;
     height: 80%;
+    background: #ddd;
 }
 
 *,
@@ -42,6 +43,8 @@ body {
 }
 .destination:hover{
     transform: scale(1.2);
+    box-shadow: 10px 13px 9px 0 rgba(0, 0, 0, 0.4);
+    
 }
 
 .destination:hover h2{
